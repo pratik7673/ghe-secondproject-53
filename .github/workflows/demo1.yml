@@ -3,6 +3,10 @@ on:
  workflow_dispatch:
  pull_request:
    types: [opened,synchronize]
+ push:
+  branches: 
+   - master
+   - 'feature**'
 jobs:
   deploy:
     runs-on: ubuntu-latest
