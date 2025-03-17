@@ -1,4 +1,4 @@
-name: CI/CD pipelines
+name: CI/CD pipeline
 on:
  workflow_dispatch:
  pull_request:
